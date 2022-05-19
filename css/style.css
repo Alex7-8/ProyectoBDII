@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/font.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -188,7 +188,7 @@ main{
 .Ft__footer
 .footer{
     width: 100%;
-    padding: 2px 2px;
+    padding: 3px 3px;
     display: flex;
     justify-content: center;
     -webkit-backdrop-filter: blur(1px);
