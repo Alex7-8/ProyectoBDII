@@ -12,7 +12,7 @@ var ctrform = document.querySelector(".caja__tr-formulario");
 
 /*Mensaje formulario*/
 function mensaje(){
-    alert("Formulario enviado, debera esperar de 48 a 72 horas para que validemos que los datos proporcionados y podamos brindarle una solucion.");
+    alert("Formulario enviado, debera esperar de 48 a 72 horas para que validemos los datos proporcionados y podamos brindarle una solucion.");
 }
 function ancho(){
     if(window.innerWidth > 850){
