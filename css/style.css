@@ -199,10 +199,27 @@ main{
     color:black;
     margin-top: 272px;
     font-size: 16px;
-    font-family: 'Besley', serif;
-    background-image: linear-gradient(to top, #7effe3 0%, var(--blanco)100%); 
-   
+    
 }
+
+@media screen and (max-width: 1000px){
+
+    .Ft__footer
+    .footer{
+        font-size: 15px;
+        max-height: 30px; 
+        margin-top: 1000px;
+      
+    }
+           .contenedor__todo{
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        position: relative;
+        margin-top: 200px;
+    }
+}
+
 
 @media screen and (max-width: 850px){
 
@@ -212,4 +229,6 @@ main{
         max-height: 30px; 
         margin-top: 280px;
     }
+ 
 }
+
