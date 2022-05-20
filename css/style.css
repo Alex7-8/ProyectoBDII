@@ -90,6 +90,7 @@ main{
     top: -185px;
     left: 10px;
     transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  
 }
 
 .contenedor__login-formulario form{
@@ -98,12 +99,13 @@ main{
     background: white;
     position: absolute;
     border-radius: 20px;
+    max-height: 880px; 
 }
 
 .contenedor__login-formulario form h2{
     font-size: 30px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #46A2FD;
 }
 
@@ -123,13 +125,14 @@ main{
     background: #f2f2f2;
     padding: 1.5rem;
     border-radius: 1rem;
-    margin-top: 20px;
+    margin-top: 15px;
     outline: none;
+    
 }
 
 .contenedor__login-formulario form button{
     padding: 10px 40px;
-    margin-top: 40px;
+    margin-top: 25px;
     border: none;
     font-size: 14px;
     background: #46A2FD;

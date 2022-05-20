@@ -40,6 +40,7 @@
                 <!--Register-->
                 <form action="" class="formulario__formulario">
                     <h2>Formulario</h2>
+                    <input type="text" placeholder="ID Empleado">
                     <input type="text" placeholder="Nombre Completo">
                     <input type="email" placeholder="Correo Electronico">
                     <input type="text"placeholder="Usuario Registrado">
