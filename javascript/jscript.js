@@ -1,7 +1,6 @@
 document.getElementById("btn__iniciar-sesion").addEventListener("click", Ingresar);
 document.getElementById("btn__formulario").addEventListener("click", Formulario);
 window.addEventListener("resize", ancho);
-document.getElementById("btn__enviar").addEventListener("click", mensaje);
 //variables usadas
 var clogin_formulario = document.querySelector(".contenedor__login-formulario");
 var flogin = document.querySelector(".formulario__login");
@@ -11,9 +10,10 @@ var ctrform = document.querySelector(".caja__tr-formulario");
 
 
 /*Mensaje formulario*/
-function mensaje(){
-    alert("Formulario enviado, debera esperar de 48 a 72 horas para que validemos los datos proporcionados y podamos brindarle una solucion.");
-}
+
+
+
+
 function ancho(){
     if(window.innerWidth > 850){
         ctrlogin.style.display="block";

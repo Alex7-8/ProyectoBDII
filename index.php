@@ -30,25 +30,23 @@
             <!--Formulario de Login y registro-->
             <div class="contenedor__login-formulario">
                 <!--Login-->
-                <form action="" class="formulario__login">
+                <form action="api/registro.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Usuario">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Usuario" name ="User">
+                    <input type="password" placeholder="Contraseña" name ="Pass">
                     <button>Ingresar</button>
                 </form>
 
                 <!--Register-->
-                <form action="" class="formulario__formulario">
+                <form action="api/Reg_Form.php" method="POST" class="formulario__formulario">
                     <h2>Formulario</h2>
-                    <input type="text" placeholder="ID Empleado">
-                    <input type="text" placeholder="Nombre Completo">
-                    <input type="email" placeholder="Correo Electronico">
-                    <input type="text"placeholder="Usuario Registrado">
-                    <input type="password"placeholder="Contraseña">
-                    <input type="text" placeholder="Nombre Completo de Jefe Inmediato">
-                    <input type="email" placeholder="Correo de Jefe Inmediato">
-                    <input type="text"placeholder="ID de Jefe Inmediato">
-                    <textarea class="input-text" placeholder="Detalles del Problema"></textarea>
+                    <input type="text" placeholder="ID" name ="Id">
+                    <input type="text" placeholder="Nombre Completo" name = "Nombre">
+                    <input type="email" placeholder="Correo Electronico" name = "Correo">
+                    <input type="text"placeholder="Usuario Registrado" name = "Usr">
+                    <input type="password"placeholder="Contraseña" name = "Pss">
+         
+                    <textarea class="input-text" placeholder="Detalles del Problema" name ="Detalle"></textarea>
                     <button id=btn__enviar>Enviar</button>
                 </form>
             </div>
