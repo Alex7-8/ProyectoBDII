@@ -21,8 +21,6 @@ $procedure_params = array(
     );
 
 
-  // $sql = "exec SP_CrearCuenta @DPI=?,@Id_Ag=?,@id_estadoCuenta=?,@Saldo=?,@Id_Tipo_C=?,@Moneda=?; ";
-
 
 $sql = "exec SP_Soporte @Id=?,@Nombre=?,@Usr=?,@pass=?,@Correo = ?,@Detalles=?; ";
 

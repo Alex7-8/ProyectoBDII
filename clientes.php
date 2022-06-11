@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Grupo Financiero UMG</title>
     <link rel="stylesheet" href="css/styleb.css">
+	<link rel="stylesheet" href="css/normalize.css">
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="css/formulario.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,800&display=swap" rel="stylesheet">
